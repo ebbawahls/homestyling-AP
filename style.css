@@ -1,31 +1,141 @@
+.custom-navbar {
+    background-color: #fff0ba ;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: #8a0000;
+}
+
+.custom-navbar .navbar-toggler {
+  border-color: #8a0000;
+  background-color: transparent;
+}
+
+.logo-img {
+  height: 400px; /* desktop size */
+  transition: height 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .logo-img {
+    height: 60px; /* mobile size */
+  }
+}
+
+
 body {
     background-color: #ffb080;
 }
 
-h2, h3, p {
+h1 {
+    padding: 1rem 2rem 6rem;
+    text-align: right;
     color: #8a0000;
+    background-color: #fff0ba
 }
 
-header h1 {
-    color: #8a0000;
-    background-color: #fff0ba;
+#projects {
+    color: #8a0000
 }
 
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #fff0ba;
-}
-
-.navbar li {
-    display: inline-block;
-}
-
-.navbar a {
-    color: #8a0000;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
+#projects h2 {
+    margin-top: 5rem;
     text-align: center;
+}
+
+.carousel-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.custom-carousel-icon {
+  font-size: 2.5rem;
+  color: #8a0000;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: transparent;
+  border: none;
+}
+
+#about h2 {
+    margin: 10rem 3rem 2rem 2rem ;
+    text-align: end;
+    color: #8a0000;
+}
+
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.about-text {
+    max-width: 800px;
+    margin-left: 2rem;
+    margin-right: auto;
+    padding-top: 1rem;
+    text-align: left;
+    color: #8a0000;
+    flex: 1 1 300px;
+    font-size: 1.5rem;
+}
+
+.founder-img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  background-color: #fff0ba;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+#services h2 {
+    margin-top: 5rem;
+    text-align: center;
+    color: #8a0000;
+}
+
+.services-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.homestyling,
+.vint-consult {
+  flex: 1 1 300px;
+  text-align: center;
+  color: #8a0000;
+}
+
+.services-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+footer {
+    background-color: #fff0ba;
+}
+
+#contact {
+    color: #8a0000
+}
+
+#contact a {
+    color: #8a0000;
 }
