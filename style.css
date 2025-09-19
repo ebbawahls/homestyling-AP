@@ -26,6 +26,7 @@
 
 body {
     background-color: #ffb080;
+    font-family: 'Lato', sans-serif;
 }
 
 h1 {
@@ -41,6 +42,7 @@ h1 {
 
 #projects h2 {
     margin-top: 5rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
@@ -91,7 +93,7 @@ h1 {
 }
 
 .founder-img {
-  max-width: 400px;
+  max-width: 300px;
   width: 100%;
   height: auto;
   background-color: #fff0ba;
@@ -100,7 +102,7 @@ h1 {
 }
 
 #services h2 {
-    margin-top: 5rem;
+    margin-top: 8rem;
     text-align: center;
     color: #8a0000;
 }
@@ -123,8 +125,11 @@ h1 {
 }
 
 .services-container img {
-  max-width: 100%;
+  max-width: 430px;
+  width: 100%;
   height: auto;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
 }
 
 
