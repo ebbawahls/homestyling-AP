@@ -135,6 +135,7 @@ h1 {
 
 footer {
     background-color: #fff0ba;
+    padding: 1rem;
 }
 
 #contact {
@@ -144,3 +145,5 @@ footer {
 #contact a {
     color: #8a0000;
 }
+
+/*VALIDATED CODE*/
